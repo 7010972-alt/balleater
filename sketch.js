@@ -77,8 +77,8 @@ function setup() {
   }
 
   //create buttons and move game size to screen size
-  mapSizeY = displayHeight - 20;
-  mapSizeX = displayWidth - 20;
+  mapSizeY = displayHeight;
+  mapSizeX = displayWidth;
   createCanvas(mapSizeX, mapSizeY);
   let button1 = createButton("1 Win | UPG Speed");
   button1.position(buttonXSpace, buttonSpaceBase);
